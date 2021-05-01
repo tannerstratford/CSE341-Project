@@ -1,6 +1,6 @@
 .jumbotron {
   background: #0065BD;
-  color: white;
+  color: black;
   padding-bottom: 80px; 
 }
 
@@ -14,7 +14,7 @@
 }
   
 .jumbotron p {
-  color: #d9ccee;
+  color: black
   max-width: 75%;
   margin: 1em auto 2em; 
 }
@@ -40,4 +40,13 @@
 .logo {
   width: 5rem;
   height: 5rem;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
 }
