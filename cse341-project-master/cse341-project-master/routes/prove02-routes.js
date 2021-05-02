@@ -1,6 +1,4 @@
 const express = require('express');
-const path = require('path');
-const rootDir = require('../../util/path');
 const router = express.Router();
 const bookTitle = [];
 const bookSummary = [];
@@ -12,7 +10,7 @@ router.post('/add-books', (req, res, next) => {
     bookTitle.push(title);
     bookSummary.push(summary);
 
-    res.redirect('/');
+    res.redirect('/prove02');
 })
 
 router.get('/show-book', (req, res, next) => {
@@ -35,4 +33,4 @@ router.get('/', (req, res, next) => {
     
     });
 });
-exports.routes = router;
+module.exports = router;
