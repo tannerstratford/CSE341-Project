@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 
 const path = require('path');
 
-const routes = require('./Prove02/routes/prove02-routes');
+const routes = require('./routes/prove02-routes');
 
 const app = express();
 
